@@ -2,43 +2,101 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    <script src="js/JavaScript.js"></script>
+    <script src="js/script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio</title>
 </head>
 <body>
-    <h1>DESAFIO DX3</h1>
-    <h2>DESAFIO 1: TIRA-TEIMA</h2>
+    <div class="container">
+        <div class="header" style=" color:rgb(95, 220, 95);"> DESAFIO DX3
+        </div>
+        <div id="menu">
+ <ul>
+        <a class="servics" href="#des1">⚪TIRA-TEIMA</a>
+        <a class="servics" href="#des2">⚪VICE-LÍDER</a>
+        <a class="servics" href="#des3">⚪ZERINHO OU UM</a>
+        <a class="servics" href="#int">⚪INTEGRANTES</a>
+            </ul>
+        </div>
+    </div>
+    <div class="azul">
+        <img width="195px" height="200px" src="img/videogamepng.png">
+        </div>
+        
+    
+    <h2>DESAFIO 1: TIRA-TEIMA</h2><img class="img-icon"src="img/bola.png">
+    <div class="container" id="des1"></div>
 
-    <h3><p>Digite a distância da bola (ex.: X,Y):
+    <h3><p>Digite a largura:
         <input type="text" placeholder="digite aqui..." id="larg"></h3>
-        <h3><p>Digite a distância da bola (ex.: X,Y):
+        <h3><p>Digite o comprimento:
             <input type="text" placeholder="digite aqui..." id="comp"></h3>
+            <a class="p"><p></p><h4></h4></a>
             <button onclick="tira()">Dentro ou Fora?</button>
+            
+            
+    <h2>DESAFIO 2: VICE-LÍDER</h2> <img class="img-icon"src="img/medalha.png">
 
-    <h2>DESAFIO 2: VICE-LÍDER</h2>
+    <div class="container" id="des2"></div>
 
     <h3><p>Pontuação A:
-        <input type="number" placeholder="digite aqui..." id="var"></h3>
+        <input type="text" placeholder="digite aqui..." id="viceA"></h3>
     <h3><p>Pontuação B:
-        <input type="number" placeholder="digite aqui..." id="var"></h3>
+        <input type="text" placeholder="digite aqui..." id="viceB"></h3>
     <h3><p>Pontuação C:
-        <input type="number" placeholder="digite aqui..." id="var"></h3>
-            <button onclick="vice()">Dentro ou Fora?</button><p></h3>
+        <input type="text" placeholder="digite aqui..." id="viceC"></h3>
+         <a class="p"><p></p><h5></h5></a>
+            <button onclick="vice()">Quem é o Vice?</button><p></h3>
                 
-   <h2>DESAFIO 3: ZERINHO OU UM</h2>
+
+   <h2>DESAFIO 3: ZERINHO OU UM</h2> <img class="img-icon"src="img/zeroum.png">
+
+   <div class="container" id="des3"></div>
 
    <h3><p>Digite o valor escolhido:
-       <input type="number" placeholder="digite aqui..." id="larg"></h3>
+       <input type="number" placeholder="digite aqui..." id="a"></h3>
    <h3><p>Digite o valor escolhido:
-       <input type="number" placeholder="digite aqui..." id="larg"></h3>
+       <input type="number" placeholder="digite aqui..." id="b"></h3>
    <h3><p>Digite o valor escolhido:
-       <input type="number" placeholder="digite aqui..." id="larg"></h3>
-          <button onclick="zerinho()">Dentro ou Fora?</button><p></h3>
+       <input type="number" placeholder="digite aqui..." id="c"></h3>
+       <a class="p"><p></p><h6></h6></a>
+          <button onclick="zerinho()">O vencedor é...</button><p></h3>
 
-            
+
+
+ <div class="container" id="clients">
+</div>
+<div class="container textCenter">
+<div id="services">
+    <div class="container" id="int"></div>
+<h2 class="green">2° C- DEV'S</h2>
+<h1 class="black">INTEGRANTES</h1>
+</div>
+</div>
+<div class="container" id="services">
+    <div class="textCenter" id="tJapa">
+    <img class="img-icon"  src="img/borboleta.png">
+    <h3>Ana Laura-N°2</h3>
+    <a class="projects" href="https://github.com/analaurasantos06" target="_blank">Confira os projetos</a>
+    </div>
+ <div class="textCenter" id="tCurr">
+ <img class="img-icon" src="img/messiIcone.jpg">
+ <h3>João Pedro-N°15</h3>
+<a class="projects" href="https://github.com/JoaoGrando1" target="_blank">Confira os projetos</a>
+</div> 
+<div class="textCenter" id="tVending">
+<img class="img-icon"  src="img/Pata.jpg">
+<h3>Júlia Farias-N°16</h3>
+<a class="projects" href="https://github.com/juhfarias31" target="_blank">Confira os projetos</a>
+</div>
+<div class="textCenter" id="tVending">
+<img class="img-icon"  src="img/lua.png">
+<h3>Luana Gabrielly-N°22</h3>
+ <a class="projects" href="https://github.com/devlugaby" target="_blank">Confira os projetos</a>
+</div>
+</div>
 
 
 
